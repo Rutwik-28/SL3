@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+/* Style navbar and its ul li */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #41393e;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+/* active style */
+.nav .active {
+    background-color: #8e4162;
+}
+
+/* Style the header */
+.header {
+    padding: 50px;
+
+    text-align: center;
+
+    background-color: #f1f1f1;
+}
+
+/* Container for flexboxes */
+.row {
+
+    display:         flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+    height: 250px;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+
+    flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+
+    flex: 2;
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #f1f1f1;
+    position: fixed;
+}

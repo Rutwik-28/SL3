@@ -1,8 +1,8 @@
 ## Assignment 1
-#Aim
+# Aim
 Using HTML5 layout tags develop informative page with sections which include various images,
 links to other pages for navigation, make use of all possible formatting (for example font, color etc.).
-#Objective
+# Objective
 
 It gives an introduction into the basic concepts of HTML tags.
 
